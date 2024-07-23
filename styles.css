@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #000000;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    height: 100px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section#home {
+    background: url('images/background.jpg') no-repeat center center/cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+section#home h1 {
+    font-size: 3em;
+    margin-top: 0;
+}
+
+section#about img {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    height: auto;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.services .service {
+    width: 30%;
+}
+
+.partners {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.partner {
+    width: 30%;
+}
+
+.partner img {
+    width: 75%;
+    height: auto;
+    border-radius: 50%;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#contact-form label {
+    margin: 10px 0 5px;
+}
+
+#contact-form input, #contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
